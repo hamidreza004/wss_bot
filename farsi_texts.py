@@ -78,34 +78,34 @@ day1_morning_buttons_texts = [
     "بازگشت"
 ]
 day1_afternoon_buttons_texts = [
-    "Learning Safe Policies in Sequential Decision-Making",
-    "Integrating Algorithmic Methods and Artificial Intelligence: A New Paradigm in Bioinformatics",
-    "Continuous Authentication Based on BioAura",
-    "Decentralized collaborative work",
-    "Discriminating Clinical Phases of Recovery From Major Depressive Disorder using the Dynamics of Facial Expression",
-    "CloudPath: A Multi-Tier Cloud Computing Framework",
-    "Solving association problems with Convex Co-embedding",
+    "Data Summarization on Massive Data Streams",
+    "Learning to attend in a brain-inspired deep neural network",
+    "Did you enjoy your Discover Weekly? Challenges in the design and evaluation of recommender systems",
+    "Strongly log concave polynomials, high dimensional simplicial complexes, and an FPRAS for counting Bases of Matroids",
+    "Brain-Inspired Hyperdimensional Computing: An Efficient Cognitive Machine",
+    "Steering Social Activity: A Stochastic Optimal Control Point Of View",
     "بازگشت"
 ]
 day2_morning_buttons_texts = [
-    "TBA",
-    "On information theoretic secrecy",
-    "Stability-Aware Routing and Scheduling for Control Applications in Ethernet Networks",
-    "Early detection of Crossfire attacks using deep learning",
-    "Monotone Measures for Non-local Correlations",
-    "Large scale learning: challenges and solutions",
-    "Maximizing the Spread of Social Norms in Social Networks",
+    "Quantum world",
+    "Automating Pragmatic Software Dependability",
+    "Cyber physical systems",
+    "Universal Transformer: Toward the Big Dream of Universal AI",
+    "Reconfigurable Architecture for Neural Networks",
+    "Lightning Network: Problems and Research Opportunities",
+    "Social Computing",
+    "Adversarial examples and training in machine learning",
+    "Parameterized Leaf Power Recognition via Embedding into Graph Products",
     "بازگشت"
 ]
 
 day2_afternoon_buttons_texts = [
-    "Computational Social Science, a New Approach to Old Problems",
-    "Practical, lightweight formal analysis of software systems",
-    "Data Science : Lessons learned from analysis of a massive mobile phone dataset",
-    "Tampering Attacks in Cryptography and Learning​",
-    "Stochastic Submodular Maximization",
-    "Cost-Effective Storage Architectures for Emerging Big Data Applications",
-    "Fine-mapping the Favored Mutation in a Positive Selective Sweep",
+    "Functional annotation of human genes and alleles using image-based profiling",
+    "Foreign Influence Operations on Social Media: An Overview of Academic Research",
+    "Titanium-AI, the evolution of banking (Intelligent, System of Engagement and System of Insight)",
+    "Challenges and opportunities in deploying machine learning systems on edge devices",
+    "Auctions, Mechanism Design, and Differential Privacy",
+    "On origins and applications of the KLS conjecture",
     "بازگشت"
 ]
 

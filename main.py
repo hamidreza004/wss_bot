@@ -130,7 +130,7 @@ class StateHandler(telepot.helper.ChatHandler):
     def day1_morning_speech_handler(self, msg):
         if msg["text"] == day1_morning_buttons_texts[0]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/90/0b/900bc893f9cb0b08c7f8ad9d0f96023c.jpg",
+                photo="https://pasteboard.co/HTidSlG.jpg",
                 caption="""Seyed Valiallah Fatemi-Ardakani
             PhD, TOSAN""")
             self.sender.sendMessage(text="""Readiness of Iran for Digital Economy
@@ -141,7 +141,7 @@ Asset Tokenization and Identity of All Assets (IOT) and Trading of all assets...
 
         if msg["text"] == day1_morning_buttons_texts[1]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/e9/d8/e9d8af4bc1c208d2747b2616641f7cc1.jpg",
+                photo="https://pasteboard.co/HTidzdS.jpg",
                 caption="""Parisa Khanipour Roshan
             PhD, Georgia Institute of Technology""")
             self.sender.sendMessage(text="""Recovering high-resolution images from limited sensory data typically leads to a serious ill-posed inverse problem, demanding inversion algorithms that effectively capture the prior information. Learning a good inverse mapping from training data faces severe challenges...
@@ -149,7 +149,7 @@ Asset Tokenization and Identity of All Assets (IOT) and Trading of all assets...
 
         if msg["text"] == day1_morning_buttons_texts[2]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/1f/1a/1f1a64678700d58b19b6e0fe474b793c.jpg",
+                photo="https://pasteboard.co/HTie2pL.jpg",
                 caption="""Morteza Mardani
             PhD candidate, Stanford University""")
             self.sender.sendMessage(text="""Recovering high-resolution images from limited sensory data typically leads to a serious ill-posed inverse problem, demanding inversion algorithms that effectively capture the prior information. Learning a good inverse mapping from training data faces severe challenges...
@@ -157,7 +157,7 @@ Asset Tokenization and Identity of All Assets (IOT) and Trading of all assets...
 
         if msg["text"] == day1_morning_buttons_texts[3]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/6a/af/6aaf05c67b0f85f4a8ea2458f35c99b2.jpg",
+                photo="https://pasteboard.co/HTie7gz.jpg",
                 caption="""Shahram Ghandeharizadeh
                 Associate Professor, University of Southern California (USC)""")
             self.sender.sendMessage(text="""Nova proposes a departure from today's complex database managements systems (DBMSs). It uses simple components that communicate using high speed networks (RDMA) to realize a DBMS. A component may be a file system, a buffer pool manager, abstraction of data items as records, documents, and key-value pairs,...
@@ -165,14 +165,14 @@ Asset Tokenization and Identity of All Assets (IOT) and Trading of all assets...
 
         if msg["text"] == day1_morning_buttons_texts[4]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/23/cf/23cf2a45977c6af3b71ac41297fc65f8.jpg",
+                photo="https://pasteboard.co/HTiecoG.jpg",
                 caption="""Mahdi Safarnejad
             PhD, Sharif University of Technology""")
             self.sender.sendMessage(text="""String similarity measures are among the most fundamental problems in computer science. The notable examples are edit distance and longest common subsequence. Known extension of these problems like tree edit distance and Ulam distance are also studied extensively...
             http://wss.ce.sharif.edu/seminar/156/""", reply_markup=day1_morning_keyboard)
         if msg["text"] == day1_morning_buttons_texts[5]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/dd/8c/dd8c810cc32187001ae0d1bb51a05705.jpg",
+                photo="https://pasteboard.co/HTiegUX.jpg",
                 caption="""Amir Rahmati
                             Assistant professor, Stony Brook University""")
             self.sender.sendMessage(text="""Incorporating security at the inception of a technology is a goal we frequently strive for, but rarely achieve. Most of the research in the security domain is reactive: We design attacks, defenses, and systems to expose and fix vulnerabilities...
@@ -180,7 +180,7 @@ Asset Tokenization and Identity of All Assets (IOT) and Trading of all assets...
 
         if msg["text"] == day1_morning_buttons_texts[6]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/3d/e0/3de08e1db4db7211d021ce52a706a838.jpg",
+                photo="https://pasteboard.co/HTielWI.jpg",
                 caption="""Ali Eslami
             Staff Research Scientist, Google DeepMind""")
             self.sender.sendMessage(text=""" Scene representation—the process of converting visual sensory data into concise descriptions—is a requirement for intelligent behavior. Recent work has shown that neural networks excel at this task when provided with large, labeled datasets...
@@ -194,113 +194,130 @@ Asset Tokenization and Identity of All Assets (IOT) and Trading of all assets...
         # self.sender.sendMessage(text="ارایه مورد نظر را مشخص کنید.", reply_markup=day1_afternoon_keyboard)
         if msg["text"] == day1_afternoon_buttons_texts[0]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/67/8e/678e6147ccfb1dbf4c18d117c1c03b4f.jpg",
-                caption="""Mohammad Ghavamzadeh
-            Senior Researcher, Google DeepMind""")
-            self.sender.sendMessage(text="""In many practical problems from online advertisement to health informatics and computational finance, it is often important to be able to guarantee that the policy/strategy generated by our algorithm performs at least as well as a baseline. This reduces the risk of deploying our policy and helps us to convince the product (hospital, investment) manager that it is not going to harm the business….
-            http://wss.ce.sharif.edu/seminar/88/""", reply_markup=day1_afternoon_keyboard)
+                photo="https://pasteboard.co/HTi64cN.jpg",
+                caption="""Aida Mousavifar
+            PhD candidate, EPFL""")
+            self.sender.sendMessage(text="""Many tasks in machine learning and data mining, such as data diversication, non-parametric
+learning, kernel machines, clustering etc., require extracting a small but representative summary
+from a massive dataset. Often, such problems can be posed as maximizing a submodular set function subject to a cardinality constraint.
+            http://wss.ce.sharif.edu/seminar/141/""", reply_markup=day1_afternoon_keyboard)
 
         if msg["text"] == day1_afternoon_buttons_texts[1]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/48/20/4820c78100847f837281226e351682bb.jpg",
-                caption="""Ali Sharifi Zarchi
-            Research Associate, Colorado State University, Fort Collins""")
-            self.sender.sendMessage(text="""During past decades, a major framework of bioinformatics has been an integration between algorithmic and statistical methods. For example, an analysis pipeline for Next Generation Sequencing (NGS) data might consist of some algorithmic pre-processing methods, such as alignment of the reads to a reference genome, followed by statistical post-processing methods, such as…
-            http://wss.ce.sharif.edu/seminar/119/""", reply_markup=day1_afternoon_keyboard)
+                photo="https://pasteboard.co/HTi6cCb.jpg",
+                caption="""Hossein Adeli
+            Research Scientist, Stony Brook University""")
+            self.sender.sendMessage(text="""Visual attention enables prioritization, selection and further processing of visual inputs for the purpose of achieving behavioral goals, but how is this attention control learned? How does it mechanistically serve the selection of correct actions?
+            http://wss.ce.sharif.edu/seminar/139/""", reply_markup=day1_afternoon_keyboard)
 
         if msg["text"] == day1_afternoon_buttons_texts[2]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/3a/5c/3a5c34c58fe24e6c26aaad02bdc0e02b.jpg",
-                caption="""Arsalan Mohsen Nia
-            Postdoc. Research Associate, Princeton University / Purdue University""")
-            self.sender.sendMessage(text="""Most computer systems authenticate users only once at the time of initial login, which can lead to security concerns. Continuous authentication has been explored as an approach for alleviating such concerns. Previous methods for continuous authentication primarily use biometrics, e.g., fingerprint…
-            http://wss.ce.sharif.edu/seminar/73/""", reply_markup=day1_afternoon_keyboard)
+                photo="https://pasteboard.co/HTi6iIN.jpg",
+                caption="""Zahra Nazari
+            PhD, Spotify""")
+            self.sender.sendMessage(text="""recommender systems have found their way into our everyday life and have spun an active research area in computer science. An important and non-trivial research problem in this area, sometimes more challenging than the design of recommender systems, is evaluating them.
+            http://wss.ce.sharif.edu/seminar/160/""", reply_markup=day1_afternoon_keyboard)
 
         if msg["text"] == day1_afternoon_buttons_texts[3]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/e6/11/e61125c63244091b3657b260ad859b5f.jpg",
-                caption="""Niloofar Salehi
-            Ph.D. Student, Stanford University, Computer Science department""")
-            self.sender.sendMessage(text="""Distributed, parallel crowd workers can accomplish simple tasks through workflows, but teams of collaborating crowd workers are necessary for complex goals. Unfortunately, a fundamental condition for effective teams — familiarity with other members — stands in contrast to crowd work’s flexible...
-            http://wss.ce.sharif.edu/seminar/74/""", reply_markup=day1_afternoon_keyboard)
+                photo="https://pasteboard.co/HTi6oPr.jpg",
+                caption="""Shayan Oveis Gharan
+            Assistant professor, University of Washington""")
+            self.sender.sendMessage(text="""A matroid is an abstract combinatorial object which generalizes the notions of spanning trees, and linearly independent sets of vectors. I will talk about an efficient algorithm based on the Markov Chain Monte Carlo technique to approximately count the number of bases of a matroid.
+            http://wss.ce.sharif.edu/seminar/152/""", reply_markup=day1_afternoon_keyboard)
 
         if msg["text"] == day1_afternoon_buttons_texts[4]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/46/33/46331a8cb75452a402623e7ca8c81639.jpg",
-                caption="""Sahar Harati
-            Ph.D. Student, Emory University""")
-            self.sender.sendMessage(text="""We used several metrics of variability to extract unsupervised features from video recordings of patients before and after deep brain stimulation (DBS) treatment for major depressive disorder (MDD). Our goal was to quantify the treatment effects on facial expressivity. Multiscale entropy (MSE)…
-            http://wss.ce.sharif.edu/seminar/89/""", reply_markup=day1_afternoon_keyboard)
+                photo="https://pasteboard.co/HTi6v0S.jpg",
+                caption="""Mohsen Imani
+            PhD candidate, UC San Diego""")
+            self.sender.sendMessage(text="""We live in a world where technological advances are continually creating more data. By the year 2020, about 1.7 megabytes of new information will be created every second for each human on the planet. With the emergence of the Internet of Things, devices will generate massive data streams demanding services that pose huge technical challenges due to limited device resources. 
+            http://wss.ce.sharif.edu/seminar/166/""", reply_markup=day1_afternoon_keyboard)
 
         if msg["text"] == day1_afternoon_buttons_texts[5]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/1a/e4/1ae40fba26bbf2661eccfeb23575272f.jpg",
-                caption="""Seyed Hossein Mortazavi
-                        Ph.D. student, University of Toronto""")
-            self.sender.sendMessage(text="""Path computing is a new paradigm that generalizes the edge computing vision into a multi-tier cloud architecture deployed over the geographic span of the network. Path computing supports scalable and localized processing by providing storage and computation along a succession of…
-                        http://wss.ce.sharif.edu/seminar/87/""", reply_markup=day1_afternoon_keyboard)
+                photo="https://pasteboard.co/HTi6ApB.jpg",
+                caption="""Ali Zarezade
+                        PhD, Bato Inteligente Personal Assistant""")
+            self.sender.sendMessage(text="""User engagement in online social networking depends critically on the level of social activity in the corresponding platform—the number of online actions, such as posts, shares or replies, taken by their users.
+                        http://wss.ce.sharif.edu/seminar/169/""", reply_markup=day1_afternoon_keyboard)
 
-        if msg["text"] == day1_afternoon_buttons_texts[6]:
-            self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/f4/13/f41380422521276bd2f63f5cdc213627.jpg",
-                caption="""Farzaneh Mirzazadeh
-            Postdoc. research scientist, MIT-IBM Watson AI lab""")
-            self.sender.sendMessage(text="""Co-embedding is the process of mapping elements from multiple sets into a common latent space, which can be exploited to infer element-wise associations by considering the geometric proximity of their embeddings. Such an approach underlies the state of the art for link prediction,…
-            http://wss.ce.sharif.edu/seminar/99/""", reply_markup=day1_afternoon_keyboard)
 
     # todo num 0 is empty
     def day2_morning_speech_handler(self, msg):
         if msg["text"] == day2_morning_buttons_texts[0]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/04/b1/04b1f33a40160dc8d78ac2b5c00d64a1.jpg",
-                caption="""Mohammad Mahdian
-                            Staff Research Scientist, Google Research""")
-            self.sender.sendMessage(text="http://wss.ce.sharif.edu/seminar/135/", reply_markup=day2_morning_keyboard)
+                photo="https://pasteboard.co/HTi9F7D.jpg",
+                caption="""Amir Hosein Ghadimi
+                            PhD, École Polytechnique Fédérale de Lausanne""")
+            self.sender.sendMessage(text="""In the past few years, we have witnessed a major interest by many individuals and companies such as google, IBM and Intel among others to harness the immense capacities of the "quantum world"; and use them to our advantage for computation purposes.
+            http://wss.ce.sharif.edu/seminar/161/""", reply_markup=day2_morning_keyboard)
         if msg["text"] == day2_morning_buttons_texts[1]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/21/39/213907a1d261a655ad40dd83f5496c18.jpg",
-                caption="""Mahdi Jafari Siavoshani
-            Assistant Professor, Sharif University of Technology""")
-            self.sender.sendMessage(text="""In this presentation, we talk about "information theoretic secrecy" in general and the problem of secret key agreement among multiple parties in the presence of an eavesdropper in particular. The notion of information theoretic secrecy is much stronger than the classical approach in cryptography which is mainly based on unproven assumptions about computational hardness of some problems. This means…
-            http://wss.ce.sharif.edu/seminar/80/""", reply_markup=day2_morning_keyboard)
+                photo="https://pasteboard.co/HTi9PM9.jpg",
+                caption="""Hamid Bagheri
+            Assistant Professor, Nebraska-Lincoln""")
+            self.sender.sendMessage(text="""The inherent complexity of large-scale software systems has always posed a significant challenge to software practitioners. On top of this, the ever increasing expansion of software into nearly every aspect of modern life is making its dependability more critical than ever.
+            http://wss.ce.sharif.edu/seminar/138/""", reply_markup=day2_morning_keyboard)
         if msg["text"] == day2_morning_buttons_texts[2]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/1a/d7/1ad74ea64a51913dd5d4e1c3a6dd896b.jpg",
-                caption="""Rouhollah Mahfouzi
-                            Ph.D. Student, Linköping University""")
-            self.sender.sendMessage(text="""Real-time communication over Ethernet is becoming important in various application areas of cyber-physical systems such as industrial automation and control, avionics, and automotive networking. Since such applications are typically time critical, Ethernet technology has been enhanced to support time-driven communication through the IEEE 802.1 TSN standards…
-                        http://wss.ce.sharif.edu/seminar/80/""", reply_markup=day2_morning_keyboard)
+                photo="https://pasteboard.co/HTi9V4Q.jpg",
+                caption="""Mohammad Gharib
+                            Postdoctoral Research Fellow, IPM""")
+            self.sender.sendMessage(text="""yber physical systems are simply defined as connected embedded systems,
+for more smart living. A simple example is the self driving cars. In such systems,
+the feedback from physical environment is required.
+                        http://wss.ce.sharif.edu/seminar/154/""", reply_markup=day2_morning_keyboard)
         if msg["text"] == day2_morning_buttons_texts[3]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/25/5f/255f017c481c456088557872331011e0.jpg",
-                caption="""Mostafa Rezazad
-            Postdoctoral Researcher, Singapore University of Technology and Design""")
-            self.sender.sendMessage(text="""Crossfire attack is a recently proposed threat designed to disconnect whole geographical areas, such as cities or states, from the Internet. Orchestrated in multiple phases, the attack uses a massively distributed botnet to generate low-rate benign traffic aiming to congest selected network links,...
-             http://wss.ce.sharif.edu/seminar/79/""", reply_markup=day2_morning_keyboard)
+                photo="https://pasteboard.co/HTiaczt.jpg",
+                caption="""Mostafa Dehghani
+            Research Scientist, Google Brain""")
+            self.sender.sendMessage(text="""A key signature of human intelligence is the ability to make "infinite use of finite means", thus having no limitation on the computational budget appears to be an essential ingredient for intelligent systems to eventually get to the human-like intelligence. 
+             http://wss.ce.sharif.edu/seminar/145/""", reply_markup=day2_morning_keyboard)
 
         if msg["text"] == day2_morning_buttons_texts[4]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/1a/c8/1ac8a32db963424f4a4e659a0254b8d8.jpg",
-                caption="""Salman Abolfath Beygi
-            Associate Professor, IPM""")
-            self.sender.sendMessage(text="""Non-locality is the phenomenon of observing strong correlations among the outcomes of local measurements of a multipartite physical system (particularly in quantum systems). No-signaling boxes are the abstract objects for studying non-locality,…
-            http://wss.ce.sharif.edu/seminar/82/""", reply_markup=day2_morning_keyboard)
+                photo="https://pasteboard.co/HTialYb.jpg",
+                caption="""Elmira Nezamfar
+            Researcher at DSN lab, Sharif university of Technology""")
+            self.sender.sendMessage(text="""Machine learning algorithms are achieving state-of-the-art performance in many various applications such as image processing, machine vision, speech recognition, diagnosis diseases, robotics, military, and aerospace. For decades, the usage of machine learning algorithms especially Neural Network Algorithms (NNA) has been restricted due to their complexity and high computation time of available inefficient hardware.
+            http://wss.ce.sharif.edu/seminar/173/""", reply_markup=day2_morning_keyboard)
 
         if msg["text"] == day2_morning_buttons_texts[5]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/83/f8/83f86209855c831dbf02d21bf11d5b5a.jpg",
-                caption="""Hadi Daneshmand
-            Ph.D. Student, ETH Zurich""")
-            self.sender.sendMessage(text="""The emerge of "big data" has created a need for computationally-statistically efficient optimization methods. From a statistical point of view, more observations are more information in that one can invoke asymptotical results. However, the computational complexity of learning methods…
-            http://wss.ce.sharif.edu/seminar/83/""", reply_markup=day2_morning_keyboard)
+                photo="https://pasteboard.co/HTiaz98g.jpg",
+                caption="""Mohammad Amin Fazli
+            Assistant Professor, Sharif University of Technology""")
+            self.sender.sendMessage(text="""Lightning Network is a novel off chain solution to Bitcoin's scalability problem. It features a peer to peer network of payment channels which can transfer value off chain.
+            http://wss.ce.sharif.edu/seminar/151/""", reply_markup=day2_morning_keyboard)
 
         if msg["text"] == day2_morning_buttons_texts[6]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/f6/75/f675d4f85183434d50a594a3ab348b2f.jpg",
-                caption="""Mohammad Amin Fazli
-            Assistant Professor, Sharif University of Technology""")
-            self.sender.sendMessage(text="""Social norms are a core concept in social sciences and play a critical role in regulating a society’s behaviors. Organizations and even governmental bodies use this social component to tackle varying challenges in society, as it is a less costly alternative to establishing...
-            http://wss.ce.sharif.edu/seminar/106/""", reply_markup=day2_morning_keyboard)
+                photo="https://pasteboard.co/HTiaJps.jpg",
+                caption="""Mohammadreza Babaei
+            PhD candidate, Max Planck Institute""")
+            self.sender.sendMessage(text="""A growing number of people rely on social media platforms, such as Twitter and
+Facebook, for their news and information needs, where users themselves play
+a role in selecting the sources from which they consume information, overthrowing
+traditional journalistic gatekeeping.
+            http://wss.ce.sharif.edu/seminar/142/""", reply_markup=day2_morning_keyboard)
+
+        if msg["text"] == day2_morning_buttons_texts[7]:
+            self.sender.sendPhoto(
+                photo="https://pasteboard.co/HTiaPeW.jpg",
+                caption="""Arash Einolghozati
+            PhD, Georgia Institute of Technology""")
+            self.sender.sendMessage(text="""Machine learning algorithms such as Neural Networks are prone to adversarial attacks in which a carefully chosen example can fool the classifier. Such examples, imperceptible to human eye (in computer vision) or semantically the same (in NLP), can bring the accuracy of sophisticated networks to virtually zero. 
+            http://wss.ce.sharif.edu/seminar/168/""", reply_markup=day2_morning_keyboard)
+
+        if msg["text"] == day2_morning_buttons_texts[8]:
+            self.sender.sendPhoto(
+                photo="https://pasteboard.co/HTiaUVr.jpg",
+                caption="""Elham Havaei
+            PhD candidate, University of California, Irvine""")
+            self.sender.sendMessage(text="""he k-leaf power graph G of a tree T is a graph whose vertices are the leaves of T and whose edges connect pairs of leaves at unweighted distance at most k in T. Recognition of the k-leaf power graphs for k < 7 is still an open problem. In this talk, we provide an algorithm for this problem for sparse leaf power graphs.
+            http://wss.ce.sharif.edu/seminar/137/""", reply_markup=day2_morning_keyboard)
 
             # todo nothing
 
@@ -316,58 +333,55 @@ Asset Tokenization and Identity of All Assets (IOT) and Trading of all assets...
     def day2_afternoon_speech_handler(self, msg):
         if msg["text"] == day2_afternoon_buttons_texts[0]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/f6/af/f6afcf31b1e5a420413715e9a5c0db75.jpg",
-                caption="""Taha Yasseri
-                            Associate Professor, University of Oxford""")
-            self.sender.sendMessage(text="""We are nowadays at a crossroads, at which new approaches converge to tackle old problems in the study of social systems. We name such crossroads computational social science (CSS) : a new discipline that can offer abstracted (simplified, idealized) models and methods (mainly from statistical physics), large storage, algorithms and computational power (computer and data science), and a set of social hypotheses together with a…
-                                http://wss.ce.sharif.edu/seminar/85/""", reply_markup=day2_afternoon_keyboard)
+                photo="https://pasteboard.co/HTibZID.jpg",
+                caption="""Mohammad Hosein Rohban
+                            Assistant professor, Sharif University of Technology""")
+            self.sender.sendMessage(text="""mage-based profiling has proven to be a powerful, efficient single-cell technology for characterizing the function of small molecules and genes at large scale. In image-based – or morphological – profiling, each cell population perturbed by a genetic or small molecule reagent is measured for a pattern – or signature – of the perturbants' effect on cell state.
+                                http://wss.ce.sharif.edu/seminar/153/""", reply_markup=day2_afternoon_keyboard)
         if msg["text"] == day2_afternoon_buttons_texts[1]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/8a/81/8a81f2341826aa959146341522e49bbc.jpg",
-                caption="""Hamid Bagheri
-                    Assistant Professor, Nebraska-Lincoln""")
-            self.sender.sendMessage(text="""The ever-increasing expansion of software into nearly every aspect of modern life, from mobile banking to healthcare systems, is making its dependability more important than ever. Software verification is known to provide the highest degree of software…
-                    http://wss.ce.sharif.edu/seminar/86/""", reply_markup=day2_afternoon_keyboard)
+                photo="https://pasteboard.co/HTic6vA.jpg",
+                caption="""Meysam Alizadeh
+                    Postdoctoral Research Associat, Princeton University""")
+            self.sender.sendMessage(text="""Foreign influence efforts on democratic elections are undermining confidence in governments around the world and may have shaped outcomes from Britain to France to the United States. Since 2014 at least 65 distinct influence campaigns have targeted 18 different democracies. 
+                    http://wss.ce.sharif.edu/seminar/170/""", reply_markup=day2_afternoon_keyboard)
 
         if msg["text"] == day2_afternoon_buttons_texts[2]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/0e/8a/0e8a2d32b0e5e8bf341743ad4f1a27b5.jpg",
-                caption="""Behnam Bahrak
-                            Assistant Professor, University of Tehran""")
-            self.sender.sendMessage(text="""Mobile phones are ubiquitous. In many countries, including Iran, the coverage reaches 100% of the population, and even in remote villages, it is not unusual to cross paths with someone in the street talking on a mobile phone. Due to their ubiquity, mobile phones have the potential to be used as millions of sensors of their environment and provide us with an extremely rich and informative source of data.…
-                                http://wss.ce.sharif.edu/seminar/122/""", reply_markup=day2_afternoon_keyboard)
+                photo="https://pasteboard.co/HTicaJC.jpg",
+                caption="""Majid Abdollah Khani
+                            master, TOSAN""")
+            self.sender.sendMessage(text="""Digital banking against traditional banking
+Digital Bank Brands & Channels
+Design a digital bank
+Digital interactions , product and process
+Digital Organizations
+                                http://wss.ce.sharif.edu/seminar/171/""", reply_markup=day2_afternoon_keyboard)
 
         if msg["text"] == day2_afternoon_buttons_texts[3]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/05/ba/05bab14e4dc61c764c4e41a08c9bb81b.jpg",
-                caption="""Mohammad Mahmoody
-                    Assistant Professor, University of Virginia""")
-            self.sender.sendMessage(text="""In this work, we revisit and extend the bitwise tampering model of Austrin et al. to the blockwise setting where each incoming block of randomness becomes tamperable with independent probability p. Our main result is an efficient blockwise p-tampering attack to bias the average of any efficient function…
-                    http://wss.ce.sharif.edu/seminar/101/""", reply_markup=day2_afternoon_keyboard)
+                photo="https://pasteboard.co/HTicelW.jpg",
+                caption="""Majid Sabbagh
+                    Ph.D Candidate, Northeastern University""")
+            self.sender.sendMessage(text="""Edge computing enables advanced on-device processing and decision making. This paradigm lowers dependence on the cloud and hence reduces the latency for critical applications and potentially enhances the privacy of users.
+                    http://wss.ce.sharif.edu/seminar/140/""", reply_markup=day2_afternoon_keyboard)
 
         if msg["text"] == day2_afternoon_buttons_texts[4]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/b6/e2/b6e2fc19e103cd183dc16e1b4eae0894.jpg",
-                caption="""Mohammadreza Karimi
-                            Master Student, ETH Zürich""")
-            self.sender.sendMessage(text="""Stochastic optimization of continuous objectives is at the heart of mod- ern machine learning. However, many important problems are of discrete nature and often involve submodular objectives. We seek to unleash the power of stochastic continuous optimization, namely stochastic gradient descent and its variants, to such discrete problems. We first introduce the problem of stochastic submodular optimization,…
-                    http://wss.ce.sharif.edu/seminar/118/""", reply_markup=day2_afternoon_keyboard)
+                photo="https://pasteboard.co/HTicid7.jpg",
+                caption="""Mohammad Mahdian
+                            Staff Research Scientist, Google Research""")
+            self.sender.sendMessage(text="""In this talk, I will given an overview of two growing field of research: mechanism design for auctions, and differential privacy. I will explain the notion of differential privacy and present some of the key results in the differential privacy literature.
+                    http://wss.ce.sharif.edu/seminar/147/""", reply_markup=day2_afternoon_keyboard)
 
         if msg["text"] == day2_afternoon_buttons_texts[5]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/38/be/38be94f77a0e85c6b7187c430ccd7ea6.jpg",
-                caption="""Saba Ahmadian
-                    Ph.D. student, Sharif University of Technology""")
-            self.sender.sendMessage(text=""""With increasing performance requirements of data-intensive applications in data centers, storage subsystems have become performance bottlenecks of computing systems. Hard Disk Drives (HDDs), which are used as main media to store user data in storage systems, provide large capacity and low cost, ..
-                    http://wss.ce.sharif.edu/seminar/77/""", reply_markup=day2_afternoon_keyboard)
+                photo="https://pasteboard.co/HTicmdB.jpg",
+                caption="""Majid Farhadi
+                    PhD candidate, Georgia Institute of Technology""")
+            self.sender.sendMessage(text=""""Cheeger (isoperimetric) constant of a (compact Riemannian) maniforld is a positive real number defined in terms of the minimal area of a hypersurface that divides the manifold into two disjoint pieces, encapsulating a measure of bottleneckedness.
+                    http://wss.ce.sharif.edu/seminar/172/""", reply_markup=day2_afternoon_keyboard)
 
-        if msg["text"] == day2_afternoon_buttons_texts[6]:
-            self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/27/00/2700d6ddcc88f0114f7454cd47215d06.jpg",
-                caption="""Mehrdad Bakhtiari
-                            Ph.D. Student, University of California San Diego""")
-            self.sender.sendMessage(text=""""Methods to identify signatures of selective sweeps in population genomics data have been actively developed, but most do not identify the specific mutation favored by the selective sweep. We present a method, iSAFE, that uses a statistic derived solely from population genetics signals to pinpoint the favored mutation even when the signature of selection extends to 5Mbp..
-                                http://wss.ce.sharif.edu/seminar/117/""", reply_markup=day2_afternoon_keyboard)
 
     def location_handler(self, msg):
         self.sender.sendPhoto(photo=open(os.getcwd() + "/university_map.jpg", 'rb'),caption=location_text, reply_markup=location_keyboard)
