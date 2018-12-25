@@ -400,7 +400,7 @@ http://wss.ce.sharif.edu/seminar/172/""", reply_markup=day2_afternoon_keyboard)
             self.sender.sendLocation(latitude=latitude, longitude=longitude)
 
     def poll_handler(self, msg):
-        self.sender.sendMessage(reply_markup=poll_keyboard)
+        self.sender.sendMessage(text=poll_form_text, reply_markup=poll_keyboard)
         if self.situation == 1:
             self.move_to_next_state(6)
 
