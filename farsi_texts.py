@@ -68,13 +68,13 @@ day2_buttons_texts = [
     "بازگشت"
 ]
 day1_morning_buttons_texts = [
-    "Cache Augmented Data Stores: Solutions and Opportunities",
-    "Coding for Computing",
-    "Towards Incremental Computation of Advanced Analytics",
-    "Genomic Characterization and Applications of Modern Sequencing Technologies",
-    "Population Stratification: Reliable Inference and Association Mapping",
-    "Optimization and Intervention in Networks",
-    "Distributed Load Balancing in Cache Network",
+    "Sponser",
+    "Why not ask users?",
+    "Neural Proximal Gradient Descent with GANs for Compressive Imaging",
+    "Nova:  Diffused Database Processing Using Clouds of Components",
+    "Fast Algorithms for Edit Distance and Other Similarity Measures",
+    "Tackling the security and privacy challenges of emerging technologies across the computing stack",
+    "Neural scene representation and rendering",
     "بازگشت"
 ]
 day1_afternoon_buttons_texts = [

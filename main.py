@@ -130,58 +130,61 @@ class StateHandler(telepot.helper.ChatHandler):
     def day1_morning_speech_handler(self, msg):
         if msg["text"] == day1_morning_buttons_texts[0]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/8b/72/8b72f60bc02f5abb9138235ab565873f.jpg",
-                caption="""Shahram Ghandeharizadeh
-            Associate Professor, USC""")
-            self.sender.sendMessage(text="""Numerous organizations augment a data store with a cache to enhance application performance. Redis and Memcached are two popular cache managers in use by popular internet destinations including Facebook, YouTube, and Wikipedia. One may purchase these cache managers as a service from a cloud provider such as Amazon AWS, Microsoft Azure, and Google Cloud. …
-            http://wss.ce.sharif.edu/seminar/104/""", reply_markup=day1_morning_keyboard)
+                photo="http://wss.ce.sharif.edu/media/cache/90/0b/900bc893f9cb0b08c7f8ad9d0f96023c.jpg",
+                caption="""Seyed Valiallah Fatemi-Ardakani
+            PhD, TOSAN""")
+            self.sender.sendMessage(text="""o Readiness of Iran for Digital Economy
+o Human Substitution with Intelligent Machines
+o Replacing organizations with smart platforms and principles
+o Asset Tokenization and Identity of All Assets (IOT) and Trading of all assets...
+            http://wss.ce.sharif.edu/seminar/174/""", reply_markup=day1_morning_keyboard)
 
         if msg["text"] == day1_morning_buttons_texts[1]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/af/16/af16fda4ecaf6d203cb9d76453721f4b.jpg",
-                caption="""Mohammad Ali Maddah-Ali
-            Researcher, Nokia Bell Labs, Columbia University""")
-            self.sender.sendMessage(text="""In this talk we focus on the role of coding in dealing with two major challenges of distributed computing, i.e. communication load and straggler servers. We demonstrate that the gain of coding scales with the size of the network and is essential to achieve the fundamental limits of processing and delivering big data. …
-            http://wss.ce.sharif.edu/seminar/108/""", reply_markup=day1_morning_keyboard)
+                photo="http://wss.ce.sharif.edu/media/cache/e9/d8/e9d8af4bc1c208d2747b2616641f7cc1.jpg",
+                caption="""Parisa Khanipour Roshan
+            PhD, Georgia Institute of Technology""")
+            self.sender.sendMessage(text="""Recovering high-resolution images from limited sensory data typically leads to a serious ill-posed inverse problem, demanding inversion algorithms that effectively capture the prior information. Learning a good inverse mapping from training data faces severe challenges...
+            http://wss.ce.sharif.edu/seminar/167/""", reply_markup=day1_morning_keyboard)
 
         if msg["text"] == day1_morning_buttons_texts[2]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/fb/d8/fbd8127e10f180de0e6216a1befa1058.jpg",
-                caption="""Amir Shaikhha
-            PhD, École Polytechnique Fédérale de Lausanne""")
-            self.sender.sendMessage(text="""Sophisticated analytics requires an advanced language that goes beyond relational calculus. For example, statistical models, machine learning programs, and graph algorithms are usually expressed as linear algebra programs. Currently, there exist systems and frameworks that optimize such programs under large volumes of data. Recently, …
-            http://wss.ce.sharif.edu/seminar/90/""", reply_markup=day1_morning_keyboard)
+                photo="http://wss.ce.sharif.edu/media/cache/1f/1a/1f1a64678700d58b19b6e0fe474b793c.jpg",
+                caption="""Morteza Mardani
+            PhD candidate, Stanford University""")
+            self.sender.sendMessage(text="""Recovering high-resolution images from limited sensory data typically leads to a serious ill-posed inverse problem, demanding inversion algorithms that effectively capture the prior information. Learning a good inverse mapping from training data faces severe challenges...
+            http://wss.ce.sharif.edu/seminar/149/""", reply_markup=day1_morning_keyboard)
 
         if msg["text"] == day1_morning_buttons_texts[3]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/50/77/5077bdbafe181ac211e17333606aeb97.jpg",
-                caption="""Iman Hajirasouliha
-                                Assistant Professor, Cornell University""")
-            self.sender.sendMessage(text="""In this talk, we discuss some of the advantages of modern sequencing technologies including standard short-read and long-read sequencing technologies with applications to genome re-sequencing and variation discovery. We discuss the ability of these technologies in calling…
-                                http://wss.ce.sharif.edu/seminar/102/""", reply_markup=day1_morning_keyboard)
+                photo="http://wss.ce.sharif.edu/media/cache/6a/af/6aaf05c67b0f85f4a8ea2458f35c99b2.jpg",
+                caption="""Shahram Ghandeharizadeh
+                Associate Professor, University of Southern California (USC)""")
+            self.sender.sendMessage(text="""Nova proposes a departure from today's complex database managements systems (DBMSs). It uses simple components that communicate using high speed networks (RDMA) to realize a DBMS. A component may be a file system, a buffer pool manager, abstraction of data items as records, documents, and key-value pairs,...
+                                http://wss.ce.sharif.edu/seminar/143/""", reply_markup=day1_morning_keyboard)
 
         if msg["text"] == day1_morning_buttons_texts[4]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/da/43/da438a2d2d3fffe487ecffd347faa7c3.jpg",
-                caption="""Abolfazl Motahari
-            Assistant Professor, Sharif University of Technology""")
-            self.sender.sendMessage(text="""Population stratification referes to clustering people of a population based on their original subpopulations. In this talk, the statistical model underlying the population structure will be presented. …
-            http://wss.ce.sharif.edu/seminar/81/""", reply_markup=day1_morning_keyboard)
+                photo="http://wss.ce.sharif.edu/media/cache/23/cf/23cf2a45977c6af3b71ac41297fc65f8.jpg",
+                caption="""Mahdi Safarnejad
+            PhD, Sharif University of Technology""")
+            self.sender.sendMessage(text="""String similarity measures are among the most fundamental problems in computer science. The notable examples are edit distance and longest common subsequence. Known extension of these problems like tree edit distance and Ulam distance are also studied extensively...
+            http://wss.ce.sharif.edu/seminar/156/""", reply_markup=day1_morning_keyboard)
         if msg["text"] == day1_morning_buttons_texts[5]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/1c/15/1c15309d39272ebbb807b686348a1c02.jpg",
-                caption="""Mehrdad Farajtabar
-                            Ph.D. Student, Georgia Tech""")
-            self.sender.sendMessage(text="""Event sequences are ubiquitous in areas such as e-commerce, social networks, and health informatics. For example, events in e-commerce are the times a customer purchases a product from an online vendor such as Amazon. In social networks, event sequences are the times a user signs on or generates posts, clicks, and likes…
-                        http://wss.ce.sharif.edu/seminar/103/""", reply_markup=day1_morning_keyboard)
+                photo="http://wss.ce.sharif.edu/media/cache/dd/8c/dd8c810cc32187001ae0d1bb51a05705.jpg",
+                caption="""Amir Rahmati
+                            Assistant professor, Stony Brook University""")
+            self.sender.sendMessage(text="""Incorporating security at the inception of a technology is a goal we frequently strive for, but rarely achieve. Most of the research in the security domain is reactive: We design attacks, defenses, and systems to expose and fix vulnerabilities...
+                        http://wss.ce.sharif.edu/seminar/165/""", reply_markup=day1_morning_keyboard)
 
         if msg["text"] == day1_morning_buttons_texts[6]:
             self.sender.sendPhoto(
-                photo="http://wss.ce.sharif.edu/media/cache/b1/7a/b17abcfc6b880370f1b3bf2e311abe20.jpg",
-                caption="""Pooya Shariatpanahi
-            Postdoctoral Research Fellow, IPM""")
-            self.sender.sendMessage(text="""In this talk we consider a Content Delivery Network (CDN) consisting of a connected network of caching servers. The question we address is how to allocate upcoming content requests to these servers, in a distributed manner, so that the load is balanced out between them…
-            http://wss.ce.sharif.edu/seminar/91/""", reply_markup=day1_morning_keyboard)
+                photo="http://wss.ce.sharif.edu/media/cache/3d/e0/3de08e1db4db7211d021ce52a706a838.jpg",
+                caption="""Ali Eslami
+            Staff Research Scientist, Google DeepMind""")
+            self.sender.sendMessage(text=""" Scene representation—the process of converting visual sensory data into concise descriptions—is a requirement for intelligent behavior. Recent work has shown that neural networks excel at this task when provided with large, labeled datasets...
+            http://wss.ce.sharif.edu/seminar/148/""", reply_markup=day1_morning_keyboard)
 
 
 
