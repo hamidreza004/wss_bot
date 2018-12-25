@@ -130,7 +130,7 @@ class StateHandler(telepot.helper.ChatHandler):
     def day1_morning_speech_handler(self, msg):
         if msg["text"] == day1_morning_buttons_texts[0]:
             self.sender.sendPhoto(
-                photo="images/900bc893f9cb0b08c7f8ad9d0f96023c.jpg",
+                photo="http://wss.ce.sharif.edu/media/cache/67/8e/678e6147ccfb1dbf4c18d117c1c03b4f.jpg",
                 caption="""Seyed Valiallah Fatemi-Ardakani
             PhD, TOSAN""")
             self.sender.sendMessage(text="""Readiness of Iran for Digital Economy
