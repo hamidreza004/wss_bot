@@ -8,7 +8,7 @@ from keyboards import *
 import telepot
 import sys
 import time
-from os import path
+import os
 import sqlite3
 from telepot.loop import MessageLoop
 import datetime
@@ -29,8 +29,8 @@ class StateHandler(telepot.helper.ChatHandler):
         super(StateHandler, self).__init__(*args, **kwargs)
         self.situation = 1
         self._welcome_printed = False
-        #self.connection = sqlite3.connect(os.getcwd() + '\database.db', check_same_thread=False)
-        self.connection = sqlite3.connect(path.join(path.dirname(path.abspath(__file__)), "database.db"), check_same_thread=False)
+        self.connection = sqlite3.connect(os.getcwd() + '\database.db', check_same_thread=False)
+        #self.connection = sqlite3.connect(path.join(path.dirname(path.abspath(__file__)), "database.db"), check_same_thread=False)
         self.query = self.connection.cursor()
         self.question = ""
         self.current_lecture = ""
