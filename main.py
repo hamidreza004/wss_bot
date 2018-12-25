@@ -288,7 +288,7 @@ http://wss.ce.sharif.edu/seminar/151/""", reply_markup=day2_morning_keyboard)
         if msg["text"] == day2_morning_buttons_texts[6]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTiaJps.jpg",
-                caption="""Mohammadreza Babaei
+                caption="""MahmoodReza Babaei
 PhD candidate, Max Planck Institute""")
             self.sender.sendMessage(text="""A growing number of people rely on social media platforms, such as Twitter and
 Facebook, for their news and information needs, where users themselves play
@@ -471,8 +471,6 @@ http://wss.ce.sharif.edu/seminar/172/""", reply_markup=day2_afternoon_keyboard)
         self.sender.sendMessage(text="در صورت حضور در این ارائه لطفا به کیفیت ارائه آن در قالب یک عدد از 0 تا 20 امتیاز دهید. حتما بعد از ارسال عدد موردنظر گزینه پرسش بعد را فشار دهید!", reply_markup=rate_keyboard)
 
     def rate_handler(self, msg):
-        # if int(msg["text"]) > 20 or int(msg["text"]) < 0:
-        #     self.sender.sendMessage(text="لطفا در محدوده 0 تا 20 امتیاز دهید! حتما بعد از وارد کردن عدد موردنظر ارسال را فشار دهید!", reply_markup=rate_keyboard)
         self.sender.sendMessage(text="در صورت حضور در این ارائه لطفا به کیفیت محتوای علمی آن در قالب یک عدد از 0 تا 20 امتیاز دهید. حتما بعد از ارسال عدد موردنظر گزینه ارسال امتیاز را فشار دهید!", reply_markup=rate_keyboard1)
         if self.situation // 10 == 16:
             self.move_to_next_state(1)
