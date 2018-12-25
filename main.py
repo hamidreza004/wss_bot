@@ -721,7 +721,7 @@ class StateHandler(telepot.helper.ChatHandler):
 
     def on_chat_message(self, msg):
         print(type(msg["date"]))
-        pprint(msg)
+        # pprint(msg)
         current_millis = int(round(time.time() * 1000))
         if msg['date'] - current_millis > (5 * 60 * 1000):
             return  # skip. perhaps bot was down and this is an outdated message
