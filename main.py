@@ -644,8 +644,7 @@ Digital Organizations
                    day1_afternoon_buttons_texts[3]: day1_afternoon_speech_handler,
                    day1_afternoon_buttons_texts[4]: day1_afternoon_speech_handler,
                    day1_afternoon_buttons_texts[5]: day1_afternoon_speech_handler,
-                   day1_afternoon_buttons_texts[6]: day1_afternoon_speech_handler,
-                   day1_afternoon_buttons_texts[7]: previous,
+                   day1_afternoon_buttons_texts[6]: previous,
 
                    day2_morning_buttons_texts[0]: day2_morning_speech_handler,
                    day2_morning_buttons_texts[1]: day2_morning_speech_handler,
@@ -663,8 +662,7 @@ Digital Organizations
                    day2_afternoon_buttons_texts[3]: day2_afternoon_speech_handler,
                    day2_afternoon_buttons_texts[4]: day2_afternoon_speech_handler,
                    day2_afternoon_buttons_texts[5]: day2_afternoon_speech_handler,
-                   day2_afternoon_buttons_texts[6]: day2_afternoon_speech_handler,
-                   day2_afternoon_buttons_texts[7]: previous,
+                   day2_afternoon_buttons_texts[6]: previous,
 
                    poll_texts[0]:day1_morning_poll_handler,
                    poll_texts[1]:day1_afternoon_poll_handler,

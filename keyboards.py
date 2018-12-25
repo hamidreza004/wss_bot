@@ -180,9 +180,6 @@ def _day1_afternoon_keyboard():
         ],
         [
             day1_after[6]
-        ],
-        [
-            day1_after[7]
         ]
     ]
     return ReplyKeyboardMarkup(keyboard=btn_lst)
@@ -242,9 +239,6 @@ def _day2_afternoon_keyboard():
         ],
         [
             day2_after[6]
-        ],
-        [
-            day2_after[7]
         ]
     ]
     return ReplyKeyboardMarkup(keyboard=btn_lst)
