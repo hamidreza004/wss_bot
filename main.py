@@ -731,7 +731,7 @@ class StateHandler(telepot.helper.ChatHandler):
         #     return
         if not self._welcome_printed:
             self.welcome()
-            self.query.execute(insert_chat_ids_query + str(msg["from"]["id"]) + ')')
+            # self.query.execute(insert_chat_ids_query + str(msg["from"]["id"]) + ')')
             self.connection.commit()
             return
         else:
