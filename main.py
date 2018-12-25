@@ -1,23 +1,12 @@
-# coding: utf-8
-from settings.settings import TOKEN
 from Locations.get_locations import get_location
-from pprint import pprint
-from state import Situation
-from farsi_texts import *
 from keyboards import *
 import telepot
-import sys
 import time
 import os
 import sqlite3
 from telepot.loop import MessageLoop
 import datetime
-
 from telepot.delegate import pave_event_space, per_chat_id, create_open
-
-
-# from telepot.namedtuple import InlineKeyboardMarkup, InlineKeyboardButton
-# from telepot.namedtuple import InlineQueryResultArticle, InlineQueryResultPhoto, InputTextMessageContent
 
 
 def get_chat_id(msg):
@@ -30,7 +19,6 @@ class StateHandler(telepot.helper.ChatHandler):
         self.situation = 1
         self._welcome_printed = False
         self.connection = sqlite3.connect(os.getcwd() + '\database.db', check_same_thread=False)
-        #self.connection = sqlite3.connect(path.join(path.dirname(path.abspath(__file__)), "database.db"), check_same_thread=False)
         self.query = self.connection.cursor()
         self.question = ""
         self.current_lecture = ""
@@ -438,8 +426,6 @@ http://wss.ce.sharif.edu/seminar/172/""", reply_markup=day2_afternoon_keyboard)
             self.current_lecture = day1_morning_poll_buttons_texts[4],
         elif msg["text"] == day1_morning_poll_buttons_texts[5]:
             self.current_lecture = day1_morning_poll_buttons_texts[5],
-        elif msg["text"] == day1_morning_poll_buttons_texts[6]:
-            self.current_lecture = day1_morning_poll_buttons_texts[6],
         elif msg["text"] == day1_afternoon_poll_buttons_texts[0]:
             self.current_lecture = day1_afternoon_poll_buttons_texts[0],
         elif msg["text"] == day1_afternoon_poll_buttons_texts[1]:
@@ -452,8 +438,6 @@ http://wss.ce.sharif.edu/seminar/172/""", reply_markup=day2_afternoon_keyboard)
             self.current_lecture = day1_afternoon_poll_buttons_texts[4],
         elif msg["text"] == day1_afternoon_poll_buttons_texts[5]:
             self.current_lecture = day1_afternoon_poll_buttons_texts[5],
-        elif msg["text"] == day1_afternoon_poll_buttons_texts[6]:
-            self.current_lecture = day1_afternoon_poll_buttons_texts[6],
         elif msg["text"] == day2_morning_poll_buttons_texts[0]:
             self.current_lecture = day2_morning_poll_buttons_texts[0],
         elif msg["text"] == day2_morning_poll_buttons_texts[1]:
@@ -468,6 +452,10 @@ http://wss.ce.sharif.edu/seminar/172/""", reply_markup=day2_afternoon_keyboard)
             self.current_lecture = day2_morning_poll_buttons_texts[5],
         elif msg["text"] == day2_morning_poll_buttons_texts[6]:
             self.current_lecture = day2_morning_poll_buttons_texts[6],
+        elif msg["text"] == day2_morning_poll_buttons_texts[7]:
+            self.current_lecture = day2_morning_poll_buttons_texts[7],
+        elif msg["text"] == day2_morning_poll_buttons_texts[8]:
+            self.current_lecture = day2_morning_poll_buttons_texts[8],
         elif msg["text"] == day2_afternoon_poll_buttons_texts[0]:
             self.current_lecture = day2_afternoon_poll_buttons_texts[0],
         elif msg["text"] == day2_afternoon_poll_buttons_texts[1]:
@@ -480,10 +468,7 @@ http://wss.ce.sharif.edu/seminar/172/""", reply_markup=day2_afternoon_keyboard)
             self.current_lecture = day2_afternoon_poll_buttons_texts[4],
         elif msg["text"] == day2_afternoon_poll_buttons_texts[5]:
             self.current_lecture = day2_afternoon_poll_buttons_texts[5],
-        elif msg["text"] == day2_afternoon_poll_buttons_texts[6]:
-            self.current_lecture = day2_afternoon_poll_buttons_texts[6],
         self.sender.sendMessage(text="در صورت حضور در این ارائه لطفا به کیفیت ارائه آن در قالب یک عدد از 0 تا 20 امتیاز دهید. حتما بعد از ارسال عدد موردنظر گزینه پرسش بعد را فشار دهید!", reply_markup=rate_keyboard)
-
 
     def rate_handler(self, msg):
         # if int(msg["text"]) > 20 or int(msg["text"]) < 0:
@@ -754,7 +739,7 @@ http://wss.ce.sharif.edu/seminar/172/""", reply_markup=day2_afternoon_keyboard)
         #     return
         if not self._welcome_printed:
             self.welcome()
-            # self.query.execute(insert_chat_ids_query + str(msg["from"]["id"]) + ')')
+            self.query.execute(insert_chat_ids_query + str(msg["from"]["id"]) + ')')
             self.connection.commit()
             return
         else:

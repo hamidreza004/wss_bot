@@ -281,9 +281,6 @@ def _day1_morning_poll_keyboard():
         ],
         [
             day1_morn[6]
-        ],
-        [
-            day1_morn[7]
         ]
     ]
     return ReplyKeyboardMarkup(keyboard=btn_lst)
@@ -312,9 +309,6 @@ def _day1_afternoon_poll_keyboard():
         ],
         [
             day1_after[6]
-        ],
-        [
-            day1_after[7]
         ]
     ]
     return ReplyKeyboardMarkup(keyboard=btn_lst)
@@ -346,6 +340,12 @@ def _day2_morning_poll_keyboard():
         ],
         [
             day2_morn[7]
+        ],
+        [
+            day2_morn[8]
+        ],
+        [
+            day2_morn[9]
         ]
     ]
     return ReplyKeyboardMarkup(keyboard=btn_lst)
@@ -374,9 +374,6 @@ def _day2_afternoon_poll_keyboard():
         ],
         [
             day2_after[6]
-        ],
-        [
-            day2_after[7]
         ]
     ]
     return ReplyKeyboardMarkup(keyboard=btn_lst)
