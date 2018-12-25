@@ -132,12 +132,12 @@ class StateHandler(telepot.helper.ChatHandler):
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTidSlG.jpg",
                 caption="""Seyed Valiallah Fatemi-Ardakani
-            PhD, TOSAN""")
+PhD, TOSAN""")
             self.sender.sendMessage(text="""Readiness of Iran for Digital Economy
 Human Substitution with Intelligent Machines
 Replacing organizations with smart platforms and principles
 Asset Tokenization and Identity of All Assets (IOT) and Trading of all assets...
-            http://wss.ce.sharif.edu/seminar/174/""", reply_markup=day1_morning_keyboard)
+http://wss.ce.sharif.edu/seminar/174/""", reply_markup=day1_morning_keyboard)
 
         if msg["text"] == day1_morning_buttons_texts[1]:
             self.sender.sendPhoto(
@@ -653,7 +653,9 @@ Digital Organizations
                    day2_morning_buttons_texts[4]: day2_morning_speech_handler,
                    day2_morning_buttons_texts[5]: day2_morning_speech_handler,
                    day2_morning_buttons_texts[6]: day2_morning_speech_handler,
-                   day2_morning_buttons_texts[7]: previous,
+                   day2_morning_buttons_texts[7]: day2_morning_speech_handler,
+                   day2_morning_buttons_texts[8]: day2_morning_speech_handler,
+                   day2_morning_buttons_texts[9]: previous,
 
 
                    day2_afternoon_buttons_texts[0]: day2_afternoon_speech_handler,

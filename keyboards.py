@@ -211,7 +211,14 @@ def _day2_morning_keyboard():
         ],
         [
             day2_morn[7]
+        ],
+        [
+            day2_morn[8]
+        ],
+        [
+            day2_morn[9]
         ]
+
     ]
     return ReplyKeyboardMarkup(keyboard=btn_lst)
 
