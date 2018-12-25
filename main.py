@@ -143,48 +143,49 @@ http://wss.ce.sharif.edu/seminar/174/""", reply_markup=day1_morning_keyboard)
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTidzdS.jpg",
                 caption="""Parisa Khanipour Roshan
-            PhD, Georgia Institute of Technology""")
+PhD, Georgia Institute of Technology""")
             self.sender.sendMessage(text="""Recovering high-resolution images from limited sensory data typically leads to a serious ill-posed inverse problem, demanding inversion algorithms that effectively capture the prior information. Learning a good inverse mapping from training data faces severe challenges...
-            http://wss.ce.sharif.edu/seminar/167/""", reply_markup=day1_morning_keyboard)
+http://wss.ce.sharif.edu/seminar/167/""", reply_markup=day1_morning_keyboard)
 
         if msg["text"] == day1_morning_buttons_texts[2]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTie2pL.jpg",
                 caption="""Morteza Mardani
-            PhD candidate, Stanford University""")
+PhD candidate, Stanford University""")
             self.sender.sendMessage(text="""Recovering high-resolution images from limited sensory data typically leads to a serious ill-posed inverse problem, demanding inversion algorithms that effectively capture the prior information. Learning a good inverse mapping from training data faces severe challenges...
-            http://wss.ce.sharif.edu/seminar/149/""", reply_markup=day1_morning_keyboard)
+http://wss.ce.sharif.edu/seminar/149/""", reply_markup=day1_morning_keyboard)
 
         if msg["text"] == day1_morning_buttons_texts[3]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTie7gz.jpg",
                 caption="""Shahram Ghandeharizadeh
-                Associate Professor, University of Southern California (USC)""")
+Associate Professor, University of Southern California (USC)""")
             self.sender.sendMessage(text="""Nova proposes a departure from today's complex database managements systems (DBMSs). It uses simple components that communicate using high speed networks (RDMA) to realize a DBMS. A component may be a file system, a buffer pool manager, abstraction of data items as records, documents, and key-value pairs,...
-                                http://wss.ce.sharif.edu/seminar/143/""", reply_markup=day1_morning_keyboard)
+http://wss.ce.sharif.edu/seminar/143/""", reply_markup=day1_morning_keyboard)
 
         if msg["text"] == day1_morning_buttons_texts[4]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTiecoG.jpg",
                 caption="""Mahdi Safarnejad
-            PhD, Sharif University of Technology""")
+PhD, Sharif University of Technology""")
             self.sender.sendMessage(text="""String similarity measures are among the most fundamental problems in computer science. The notable examples are edit distance and longest common subsequence. Known extension of these problems like tree edit distance and Ulam distance are also studied extensively...
-            http://wss.ce.sharif.edu/seminar/156/""", reply_markup=day1_morning_keyboard)
+http://wss.ce.sharif.edu/seminar/156/""", reply_markup=day1_morning_keyboard)
+
         if msg["text"] == day1_morning_buttons_texts[5]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTiegUX.jpg",
                 caption="""Amir Rahmati
-                            Assistant professor, Stony Brook University""")
+Assistant professor, Stony Brook University""")
             self.sender.sendMessage(text="""Incorporating security at the inception of a technology is a goal we frequently strive for, but rarely achieve. Most of the research in the security domain is reactive: We design attacks, defenses, and systems to expose and fix vulnerabilities...
-                        http://wss.ce.sharif.edu/seminar/165/""", reply_markup=day1_morning_keyboard)
+http://wss.ce.sharif.edu/seminar/165/""", reply_markup=day1_morning_keyboard)
 
         if msg["text"] == day1_morning_buttons_texts[6]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTielWI.jpg",
                 caption="""Ali Eslami
-            Staff Research Scientist, Google DeepMind""")
+Staff Research Scientist, Google DeepMind""")
             self.sender.sendMessage(text=""" Scene representation—the process of converting visual sensory data into concise descriptions—is a requirement for intelligent behavior. Recent work has shown that neural networks excel at this task when provided with large, labeled datasets...
-            http://wss.ce.sharif.edu/seminar/148/""", reply_markup=day1_morning_keyboard)
+http://wss.ce.sharif.edu/seminar/148/""", reply_markup=day1_morning_keyboard)
 
 
 
@@ -196,51 +197,51 @@ http://wss.ce.sharif.edu/seminar/174/""", reply_markup=day1_morning_keyboard)
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTi64cN.jpg",
                 caption="""Aida Mousavifar
-            PhD candidate, EPFL""")
+PhD candidate, EPFL""")
             self.sender.sendMessage(text="""Many tasks in machine learning and data mining, such as data diversication, non-parametric
 learning, kernel machines, clustering etc., require extracting a small but representative summary
-from a massive dataset. Often, such problems can be posed as maximizing a submodular set function subject to a cardinality constraint.
-            http://wss.ce.sharif.edu/seminar/141/""", reply_markup=day1_afternoon_keyboard)
+from a massive dataset. Often, such problems can be posed as maximizing a submodular set function subject to a cardinality constraint. ...
+http://wss.ce.sharif.edu/seminar/141/""", reply_markup=day1_afternoon_keyboard)
 
         if msg["text"] == day1_afternoon_buttons_texts[1]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTi6cCb.jpg",
                 caption="""Hossein Adeli
-            Research Scientist, Stony Brook University""")
-            self.sender.sendMessage(text="""Visual attention enables prioritization, selection and further processing of visual inputs for the purpose of achieving behavioral goals, but how is this attention control learned? How does it mechanistically serve the selection of correct actions?
-            http://wss.ce.sharif.edu/seminar/139/""", reply_markup=day1_afternoon_keyboard)
+Research Scientist, Stony Brook University""")
+            self.sender.sendMessage(text="""Visual attention enables prioritization, selection and further processing of visual inputs for the purpose of achieving behavioral goals, but how is this attention control learned? How does it mechanistically serve the selection of correct actions? ...
+http://wss.ce.sharif.edu/seminar/139/""", reply_markup=day1_afternoon_keyboard)
 
         if msg["text"] == day1_afternoon_buttons_texts[2]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTi6iIN.jpg",
                 caption="""Zahra Nazari
-            PhD, Spotify""")
-            self.sender.sendMessage(text="""recommender systems have found their way into our everyday life and have spun an active research area in computer science. An important and non-trivial research problem in this area, sometimes more challenging than the design of recommender systems, is evaluating them.
-            http://wss.ce.sharif.edu/seminar/160/""", reply_markup=day1_afternoon_keyboard)
+PhD, Spotify""")
+            self.sender.sendMessage(text="""recommender systems have found their way into our everyday life and have spun an active research area in computer science. An important and non-trivial research problem in this area, sometimes more challenging than the design of recommender systems, is evaluating them. ...
+http://wss.ce.sharif.edu/seminar/160/""", reply_markup=day1_afternoon_keyboard)
 
         if msg["text"] == day1_afternoon_buttons_texts[3]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTi6oPr.jpg",
                 caption="""Shayan Oveis Gharan
-            Assistant professor, University of Washington""")
-            self.sender.sendMessage(text="""A matroid is an abstract combinatorial object which generalizes the notions of spanning trees, and linearly independent sets of vectors. I will talk about an efficient algorithm based on the Markov Chain Monte Carlo technique to approximately count the number of bases of a matroid.
-            http://wss.ce.sharif.edu/seminar/152/""", reply_markup=day1_afternoon_keyboard)
+Assistant professor, University of Washington""")
+            self.sender.sendMessage(text="""A matroid is an abstract combinatorial object which generalizes the notions of spanning trees, and linearly independent sets of vectors. I will talk about an efficient algorithm based on the Markov Chain Monte Carlo technique to approximately count the number of bases of a matroid. ...
+http://wss.ce.sharif.edu/seminar/152/""", reply_markup=day1_afternoon_keyboard)
 
         if msg["text"] == day1_afternoon_buttons_texts[4]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTi6v0S.jpg",
                 caption="""Mohsen Imani
-            PhD candidate, UC San Diego""")
-            self.sender.sendMessage(text="""We live in a world where technological advances are continually creating more data. By the year 2020, about 1.7 megabytes of new information will be created every second for each human on the planet. With the emergence of the Internet of Things, devices will generate massive data streams demanding services that pose huge technical challenges due to limited device resources. 
-            http://wss.ce.sharif.edu/seminar/166/""", reply_markup=day1_afternoon_keyboard)
+PhD candidate, UC San Diego""")
+            self.sender.sendMessage(text="""We live in a world where technological advances are continually creating more data. By the year 2020, about 1.7 megabytes of new information will be created every second for each human on the planet. With the emergence of the Internet of Things, devices will generate massive data streams demanding services that pose huge technical challenges due to limited device resources. ... 
+http://wss.ce.sharif.edu/seminar/166/""", reply_markup=day1_afternoon_keyboard)
 
         if msg["text"] == day1_afternoon_buttons_texts[5]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTi6ApB.jpg",
                 caption="""Ali Zarezade
-                        PhD, Bato Inteligente Personal Assistant""")
-            self.sender.sendMessage(text="""User engagement in online social networking depends critically on the level of social activity in the corresponding platform—the number of online actions, such as posts, shares or replies, taken by their users.
-                        http://wss.ce.sharif.edu/seminar/169/""", reply_markup=day1_afternoon_keyboard)
+PhD, Bato Inteligente Personal Assistant""")
+            self.sender.sendMessage(text="""User engagement in online social networking depends critically on the level of social activity in the corresponding platform—the number of online actions, such as posts, shares or replies, taken by their users. ...
+http://wss.ce.sharif.edu/seminar/169/""", reply_markup=day1_afternoon_keyboard)
 
 
     # todo num 0 is empty
@@ -249,75 +250,78 @@ from a massive dataset. Often, such problems can be posed as maximizing a submod
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTi9F7D.jpg",
                 caption="""Amir Hosein Ghadimi
-                            PhD, École Polytechnique Fédérale de Lausanne""")
-            self.sender.sendMessage(text="""In the past few years, we have witnessed a major interest by many individuals and companies such as google, IBM and Intel among others to harness the immense capacities of the "quantum world"; and use them to our advantage for computation purposes.
-            http://wss.ce.sharif.edu/seminar/161/""", reply_markup=day2_morning_keyboard)
+PhD, École Polytechnique Fédérale de Lausanne""")
+            self.sender.sendMessage(text="""In the past few years, we have witnessed a major interest by many individuals and companies such as google, IBM and Intel among others to harness the immense capacities of the "quantum world"; and use them to our advantage for computation purposes. ...
+http://wss.ce.sharif.edu/seminar/161/""", reply_markup=day2_morning_keyboard)
+
         if msg["text"] == day2_morning_buttons_texts[1]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTi9PM9.jpg",
                 caption="""Hamid Bagheri
-            Assistant Professor, Nebraska-Lincoln""")
-            self.sender.sendMessage(text="""The inherent complexity of large-scale software systems has always posed a significant challenge to software practitioners. On top of this, the ever increasing expansion of software into nearly every aspect of modern life is making its dependability more critical than ever.
-            http://wss.ce.sharif.edu/seminar/138/""", reply_markup=day2_morning_keyboard)
+Assistant Professor, Nebraska-Lincoln""")
+            self.sender.sendMessage(text="""The inherent complexity of large-scale software systems has always posed a significant challenge to software practitioners. On top of this, the ever increasing expansion of software into nearly every aspect of modern life is making its dependability more critical than ever. ...
+http://wss.ce.sharif.edu/seminar/138/""", reply_markup=day2_morning_keyboard)
+
         if msg["text"] == day2_morning_buttons_texts[2]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTi9V4Q.jpg",
                 caption="""Mohammad Gharib
-                            Postdoctoral Research Fellow, IPM""")
+Postdoctoral Research Fellow, IPM""")
             self.sender.sendMessage(text="""yber physical systems are simply defined as connected embedded systems,
 for more smart living. A simple example is the self driving cars. In such systems,
-the feedback from physical environment is required.
-                        http://wss.ce.sharif.edu/seminar/154/""", reply_markup=day2_morning_keyboard)
+the feedback from physical environment is required. ...
+http://wss.ce.sharif.edu/seminar/154/""", reply_markup=day2_morning_keyboard)
+
         if msg["text"] == day2_morning_buttons_texts[3]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTiaczt.jpg",
                 caption="""Mostafa Dehghani
-            Research Scientist, Google Brain""")
-            self.sender.sendMessage(text="""A key signature of human intelligence is the ability to make "infinite use of finite means", thus having no limitation on the computational budget appears to be an essential ingredient for intelligent systems to eventually get to the human-like intelligence. 
-             http://wss.ce.sharif.edu/seminar/145/""", reply_markup=day2_morning_keyboard)
+Research Scientist, Google Brain""")
+            self.sender.sendMessage(text="""A key signature of human intelligence is the ability to make "infinite use of finite means", thus having no limitation on the computational budget appears to be an essential ingredient for intelligent systems to eventually get to the human-like intelligence. ... 
+http://wss.ce.sharif.edu/seminar/145/""", reply_markup=day2_morning_keyboard)
 
         if msg["text"] == day2_morning_buttons_texts[4]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTialYb.jpg",
                 caption="""Elmira Nezamfar
-            Researcher at DSN lab, Sharif university of Technology""")
-            self.sender.sendMessage(text="""Machine learning algorithms are achieving state-of-the-art performance in many various applications such as image processing, machine vision, speech recognition, diagnosis diseases, robotics, military, and aerospace. For decades, the usage of machine learning algorithms especially Neural Network Algorithms (NNA) has been restricted due to their complexity and high computation time of available inefficient hardware.
-            http://wss.ce.sharif.edu/seminar/173/""", reply_markup=day2_morning_keyboard)
+Researcher at DSN lab, Sharif university of Technology""")
+            self.sender.sendMessage(text="""Machine learning algorithms are achieving state-of-the-art performance in many various applications such as image processing, machine vision, speech recognition, diagnosis diseases, robotics, military, and aerospace. For decades, the usage of machine learning algorithms especially Neural Network Algorithms (NNA) has been restricted due to their complexity and high computation time of available inefficient hardware. ...
+http://wss.ce.sharif.edu/seminar/173/""", reply_markup=day2_morning_keyboard)
 
         if msg["text"] == day2_morning_buttons_texts[5]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTiaz98g.jpg",
                 caption="""Mohammad Amin Fazli
-            Assistant Professor, Sharif University of Technology""")
-            self.sender.sendMessage(text="""Lightning Network is a novel off chain solution to Bitcoin's scalability problem. It features a peer to peer network of payment channels which can transfer value off chain.
-            http://wss.ce.sharif.edu/seminar/151/""", reply_markup=day2_morning_keyboard)
+Assistant Professor, Sharif University of Technology""")
+            self.sender.sendMessage(text="""Lightning Network is a novel off chain solution to Bitcoin's scalability problem. It features a peer to peer network of payment channels which can transfer value off chain. ...
+http://wss.ce.sharif.edu/seminar/151/""", reply_markup=day2_morning_keyboard)
 
         if msg["text"] == day2_morning_buttons_texts[6]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTiaJps.jpg",
                 caption="""Mohammadreza Babaei
-            PhD candidate, Max Planck Institute""")
+PhD candidate, Max Planck Institute""")
             self.sender.sendMessage(text="""A growing number of people rely on social media platforms, such as Twitter and
 Facebook, for their news and information needs, where users themselves play
 a role in selecting the sources from which they consume information, overthrowing
-traditional journalistic gatekeeping.
-            http://wss.ce.sharif.edu/seminar/142/""", reply_markup=day2_morning_keyboard)
+traditional journalistic gatekeeping. ...
+http://wss.ce.sharif.edu/seminar/142/""", reply_markup=day2_morning_keyboard)
 
         if msg["text"] == day2_morning_buttons_texts[7]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTiaPeW.jpg",
                 caption="""Arash Einolghozati
-            PhD, Georgia Institute of Technology""")
-            self.sender.sendMessage(text="""Machine learning algorithms such as Neural Networks are prone to adversarial attacks in which a carefully chosen example can fool the classifier. Such examples, imperceptible to human eye (in computer vision) or semantically the same (in NLP), can bring the accuracy of sophisticated networks to virtually zero. 
-            http://wss.ce.sharif.edu/seminar/168/""", reply_markup=day2_morning_keyboard)
+PhD, Georgia Institute of Technology""")
+            self.sender.sendMessage(text="""Machine learning algorithms such as Neural Networks are prone to adversarial attacks in which a carefully chosen example can fool the classifier. Such examples, imperceptible to human eye (in computer vision) or semantically the same (in NLP), can bring the accuracy of sophisticated networks to virtually zero. ...  
+http://wss.ce.sharif.edu/seminar/168/""", reply_markup=day2_morning_keyboard)
 
         if msg["text"] == day2_morning_buttons_texts[8]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTiaUVr.jpg",
                 caption="""Elham Havaei
-            PhD candidate, University of California, Irvine""")
-            self.sender.sendMessage(text="""he k-leaf power graph G of a tree T is a graph whose vertices are the leaves of T and whose edges connect pairs of leaves at unweighted distance at most k in T. Recognition of the k-leaf power graphs for k < 7 is still an open problem. In this talk, we provide an algorithm for this problem for sparse leaf power graphs.
-            http://wss.ce.sharif.edu/seminar/137/""", reply_markup=day2_morning_keyboard)
+PhD candidate, University of California, Irvine""")
+            self.sender.sendMessage(text="""he k-leaf power graph G of a tree T is a graph whose vertices are the leaves of T and whose edges connect pairs of leaves at unweighted distance at most k in T. Recognition of the k-leaf power graphs for k < 7 is still an open problem. In this talk, we provide an algorithm for this problem for sparse leaf power graphs. ...
+http://wss.ce.sharif.edu/seminar/137/""", reply_markup=day2_morning_keyboard)
 
             # todo nothing
 
@@ -335,52 +339,53 @@ traditional journalistic gatekeeping.
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTibZID.jpg",
                 caption="""Mohammad Hosein Rohban
-                            Assistant professor, Sharif University of Technology""")
-            self.sender.sendMessage(text="""mage-based profiling has proven to be a powerful, efficient single-cell technology for characterizing the function of small molecules and genes at large scale. In image-based – or morphological – profiling, each cell population perturbed by a genetic or small molecule reagent is measured for a pattern – or signature – of the perturbants' effect on cell state.
-                                http://wss.ce.sharif.edu/seminar/153/""", reply_markup=day2_afternoon_keyboard)
+Assistant professor, Sharif University of Technology""")
+            self.sender.sendMessage(text="""mage-based profiling has proven to be a powerful, efficient single-cell technology for characterizing the function of small molecules and genes at large scale. In image-based – or morphological – profiling, each cell population perturbed by a genetic or small molecule reagent is measured for a pattern – or signature – of the perturbants' effect on cell state. ...
+http://wss.ce.sharif.edu/seminar/153/""", reply_markup=day2_afternoon_keyboard)
+
         if msg["text"] == day2_afternoon_buttons_texts[1]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTic6vA.jpg",
                 caption="""Meysam Alizadeh
-                    Postdoctoral Research Associat, Princeton University""")
-            self.sender.sendMessage(text="""Foreign influence efforts on democratic elections are undermining confidence in governments around the world and may have shaped outcomes from Britain to France to the United States. Since 2014 at least 65 distinct influence campaigns have targeted 18 different democracies. 
-                    http://wss.ce.sharif.edu/seminar/170/""", reply_markup=day2_afternoon_keyboard)
+Postdoctoral Research Associat, Princeton University""")
+            self.sender.sendMessage(text="""Foreign influence efforts on democratic elections are undermining confidence in governments around the world and may have shaped outcomes from Britain to France to the United States. Since 2014 at least 65 distinct influence campaigns have targeted 18 different democracies. ... 
+http://wss.ce.sharif.edu/seminar/170/""", reply_markup=day2_afternoon_keyboard)
 
         if msg["text"] == day2_afternoon_buttons_texts[2]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTicaJC.jpg",
                 caption="""Majid Abdollah Khani
-                            master, TOSAN""")
+master, TOSAN""")
             self.sender.sendMessage(text="""Digital banking against traditional banking
 Digital Bank Brands & Channels
 Design a digital bank
 Digital interactions , product and process
-Digital Organizations
-                                http://wss.ce.sharif.edu/seminar/171/""", reply_markup=day2_afternoon_keyboard)
+Digital Organizations ....
+http://wss.ce.sharif.edu/seminar/171/""", reply_markup=day2_afternoon_keyboard)
 
         if msg["text"] == day2_afternoon_buttons_texts[3]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTicelW.jpg",
                 caption="""Majid Sabbagh
-                    Ph.D Candidate, Northeastern University""")
-            self.sender.sendMessage(text="""Edge computing enables advanced on-device processing and decision making. This paradigm lowers dependence on the cloud and hence reduces the latency for critical applications and potentially enhances the privacy of users.
-                    http://wss.ce.sharif.edu/seminar/140/""", reply_markup=day2_afternoon_keyboard)
+Ph.D Candidate, Northeastern University""")
+            self.sender.sendMessage(text="""Edge computing enables advanced on-device processing and decision making. This paradigm lowers dependence on the cloud and hence reduces the latency for critical applications and potentially enhances the privacy of users. ...
+http://wss.ce.sharif.edu/seminar/140/""", reply_markup=day2_afternoon_keyboard)
 
         if msg["text"] == day2_afternoon_buttons_texts[4]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTicid7.jpg",
                 caption="""Mohammad Mahdian
-                            Staff Research Scientist, Google Research""")
-            self.sender.sendMessage(text="""In this talk, I will given an overview of two growing field of research: mechanism design for auctions, and differential privacy. I will explain the notion of differential privacy and present some of the key results in the differential privacy literature.
-                    http://wss.ce.sharif.edu/seminar/147/""", reply_markup=day2_afternoon_keyboard)
+Staff Research Scientist, Google Research""")
+            self.sender.sendMessage(text="""In this talk, I will given an overview of two growing field of research: mechanism design for auctions, and differential privacy. I will explain the notion of differential privacy and present some of the key results in the differential privacy literature. ...
+http://wss.ce.sharif.edu/seminar/147/""", reply_markup=day2_afternoon_keyboard)
 
         if msg["text"] == day2_afternoon_buttons_texts[5]:
             self.sender.sendPhoto(
                 photo="https://pasteboard.co/HTicmdB.jpg",
                 caption="""Majid Farhadi
-                    PhD candidate, Georgia Institute of Technology""")
-            self.sender.sendMessage(text=""""Cheeger (isoperimetric) constant of a (compact Riemannian) maniforld is a positive real number defined in terms of the minimal area of a hypersurface that divides the manifold into two disjoint pieces, encapsulating a measure of bottleneckedness.
-                    http://wss.ce.sharif.edu/seminar/172/""", reply_markup=day2_afternoon_keyboard)
+PhD candidate, Georgia Institute of Technology""")
+            self.sender.sendMessage(text=""""Cheeger (isoperimetric) constant of a (compact Riemannian) maniforld is a positive real number defined in terms of the minimal area of a hypersurface that divides the manifold into two disjoint pieces, encapsulating a measure of bottleneckedness. ...
+http://wss.ce.sharif.edu/seminar/172/""", reply_markup=day2_afternoon_keyboard)
 
 
     def location_handler(self, msg):
