@@ -133,7 +133,7 @@ http://wss.ce.sharif.edu/seminar/174/""", reply_markup=day1_morning_keyboard)
                 photo="https://pasteboard.co/HTidzdS.jpg",
                 caption="""Parisa Khanipour Roshan
 PhD, Georgia Institute of Technology""")
-            self.sender.sendMessage(text="""Recovering high-resolution images from limited sensory data typically leads to a serious ill-posed inverse problem, demanding inversion algorithms that effectively capture the prior information. Learning a good inverse mapping from training data faces severe challenges...
+            self.sender.sendMessage(text="""Whether creating a new product or evaluating and improving existing services, gaining users' love and trust is central to success. In this talk, I focus on putting User Experience Research in practice by giving examples of how different UX research methods are used in different projects ...
 http://wss.ce.sharif.edu/seminar/167/""", reply_markup=day1_morning_keyboard)
 
         if msg["text"] == day1_morning_buttons_texts[2]:
